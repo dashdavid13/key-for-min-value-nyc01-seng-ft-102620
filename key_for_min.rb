@@ -5,6 +5,6 @@ def key_for_min_value(name_hash)
   
   name_hash.each do |key, value|
     #returns key of the smallest hash value 
-    if key < key
+    key.length <=> value.length
   end 
 end
